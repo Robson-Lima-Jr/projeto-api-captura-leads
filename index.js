@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 // import pool from './service/conexao.js';
 import { retornaUsuarios } from './service/retornaUsuario.js';
+import { cadastraUsuario } from './service/cadastraUsuario.js';
 
 const app = express();
 app.use(express.json());
@@ -13,7 +14,16 @@ app.get('/usuarios', async (req,res)=> {
     const listaUsuarios = await retornaUsuarios();
 
     res.json(listaUsuarios);
-})
+});
+
+app.post('/usuarios', async (req, res)=> {
+    const nome = req.body.nome;
+    const email = req.body.email;
+    const telefone = req.body.telefone;
+
+    await cadastraUsuario(nome, email, telefone);
+    res.status(204).end();
+});
 
 app.listen(port, async ()=> {
     const data = new Date();
