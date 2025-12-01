@@ -13,7 +13,7 @@
 
 Os documento de fluxo e de componente estão no arquivo:
 
-### Fluxograma
+### Fluxograma:
 ![Documento de Fluxo](./documentation/prj-apiLeads-fluxo.png);
 
 ### Componentes da API:
