@@ -7,7 +7,7 @@ export async function retornaUsuarios() {
         `);
 
 
-    const retornaQuery = query_TB;
+    const retornaQuery = query_TB[0];
     conexao.release();
 
     return retornaQuery;
