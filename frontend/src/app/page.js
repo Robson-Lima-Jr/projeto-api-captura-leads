@@ -1,10 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Formulario from "./components/Formulario";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <h1>hello world</h1>
+      <Formulario />
     </div>
   );
 }
