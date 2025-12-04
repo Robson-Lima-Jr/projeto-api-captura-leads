@@ -15,8 +15,7 @@ html {
 }
 
 body{
-  /* background: black url(/wallpaper.png) center center/ cover no-repeat; */
-  background-color: rgb(47, 255, 0);
+  background: url(/images.jpg) black center center / cover;
 }
 
 h1 {

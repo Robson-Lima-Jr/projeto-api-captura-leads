@@ -4,10 +4,18 @@
 
 ## 🛠 Tecnologias
 
+### Back-end:
 - Node.js
 - Express
 - JavaScript
 - MySql
+
+### Front-end:
+- React
+- Next.js
+- JavaScript
+- CSS
+- Axios
 
 ## 📂 Documentação do Projeto
 
@@ -18,3 +26,7 @@ Os documento de fluxo e de componente estão no arquivo:
 
 ### Componentes da API:
 ![Documento Componente](./documentation/prj-apiLeads-componente.png);
+
+
+## Detalhes:
+Projeto simples, front e back no mesmo, sem postar a api. mais pra teste, se for abrir o projeto não serão inseridos dados no MySQL.

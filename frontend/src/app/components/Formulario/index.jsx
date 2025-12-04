@@ -3,7 +3,7 @@ import styles from './Formulario.module.css';
 import axios from 'axios';
 import { useState } from 'react';
 
-export default async function Formulario() {
+export default function Formulario() {
     const [nome, setNome] = useState("");
     const [email, setEmail] = useState("");
     const [telefone, setTelefone] = useState("");
@@ -18,9 +18,8 @@ export default async function Formulario() {
 
     async function handleCadastraUsuario(event) {
         event.preventDefault();
-    }
 
-    const endpoit = "http://localhost:8080/usuarios";
+        const endpoit = "http://localhost:8080/usuarios";
 
     try {
         await axios.post(endpoit, {
@@ -38,6 +37,7 @@ export default async function Formulario() {
 
         setMensagem(mensagemErro);
         setErro(true)
+    }
     }
 
     return (
