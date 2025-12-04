@@ -14,6 +14,15 @@
     border-radius: 20px;
 }
 
+.container_formulario h2 {
+    padding: 10px;
+
+    font-size: 1.8rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.423);
+    color: white;
+}
+
 .form_config {
     display: flex;
     flex-direction: column;
@@ -42,4 +51,22 @@
 .form_config button:hover {
     background-color: rgb(223, 181, 102);
     transition: 0.3s;
+}
+
+.erro {
+    font-size: 1.4rem;
+    padding: 5px;
+
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+}
+
+.sucesso {
+    font-size: 1.4rem;
+    padding: 5px;
+
+    border-radius: 10px;
+    background-color: rgb(42, 165, 85);
+    color: white;
 }
