@@ -4,7 +4,7 @@ import Formulario from "./components/Formulario";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className={styles.page_config}>
       <Formulario />
     </div>
   );

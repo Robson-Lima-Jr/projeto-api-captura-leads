@@ -44,7 +44,7 @@ export default async function Formulario() {
         <div className={styles.container_formulario}>
             <h2>Cadastro de Usuário</h2>
 
-            <form onSubmit={handleCadastraUsuario}>
+            <form onSubmit={handleCadastraUsuario} className={styles.form_config}>
                 <input
                     type='text'
                     placeholder='Nome'
