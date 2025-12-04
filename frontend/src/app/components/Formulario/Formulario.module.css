@@ -1,0 +1,45 @@
+.container_formulario {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+
+    background-color: rgba(194, 192, 192, 0.507);
+    border-radius: 20px;
+}
+
+.form_config {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_config input {
+    padding: 5px 10px;
+
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+.form_config button {
+    width: 200px;
+    padding: 5px;
+    margin: 0px auto;
+
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    background-color: rgb(224, 202, 162);
+    cursor: pointer;
+}
+
+.form_config button:hover {
+    background-color: rgb(223, 181, 102);
+    transition: 0.3s;
+}
